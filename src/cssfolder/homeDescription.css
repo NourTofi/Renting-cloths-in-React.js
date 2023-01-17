@@ -1,0 +1,30 @@
+.welcome{
+    position: absolute;
+    width: 288px;
+    height: 88px;
+    left: 144px;
+    top: 239px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+.description {
+    position: absolute;
+    left: 144px;
+    right: 69.35%;
+    top: 339px;
+    bottom: 46.82%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}

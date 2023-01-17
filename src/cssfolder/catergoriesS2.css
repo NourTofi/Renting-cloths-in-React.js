@@ -1,0 +1,94 @@
+.categoriess {
+    position: relative;
+    height: 44px;
+    left: 144px;
+    top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.27em;
+    color: #000000;
+}
+
+.search {
+    position: relative;
+    left: 1000px;
+    top: 65px;
+    padding: 8px 10px;
+    width: 25%;
+    border: none;
+    background: #E7E7E7;
+    border-radius: 1182px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.imag {
+    height: 152px;
+    width: 164px;
+}
+
+.typ {
+    position: relative;
+    left: 2.76%;
+    right: 56.55%;
+    top: 80.69%;
+    bottom: 11.88%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.city {
+    position: relative;
+    left: 50px;
+    bottom: 4.46%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.price {
+    position: relative;
+    left: 2.76%;
+    right: 56.55%;
+    top: 10.76%;
+    bottom: 66.82%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.card {
+    margin: 95px 55px 1px;
+    width: 165px;
+    height: 222px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+    transform: translateY(-0.5rem);
+    transition: 0.3s;
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 40px;
+}

@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './Nav'
+import HomeDescription from './HomeDescription';
+import SearchBox from './SearchBox';
+import Card from './Card';
+import Footer from './Footer';
+import "./cssfolder/website.css"
+import "./cssfolder/mainPage.css"
+import "./cssfolder/nav.css"
+import "./cssfolder/homeDescription.css"
+import "./cssfolder/catergoriesS2.css"
+import "./cssfolder/footer.css"
+import image from "./cssfolder/background.png"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function a() {
+    return (
+        <div className='website'>
+            <div className='mainPage'>
+                <Nav />
+                <HomeDescription />
+                
+            </div>
+            <div className="catergoriesS2">
+                <h1 className='categoriess'>
+                    Categories
+                </h1>
+                <SearchBox/>
+                <div className='row'>
+                <Card imag={image} typ={'Taqem'} price={'100$'} city={'Aleppo'} />
+                <Card imag={'i'} typ={'pejama'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'pantalon'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'pelosa'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'qames'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'t'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'t'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'t'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'t'} price={'p'} city={'c'} />
+                <Card imag={'i'} typ={'t'} price={'p'} city={'c'} />
+                </div>
+            </div>
+            <Footer />
+        </div>
+    );
 }
 
-export default App;
+export default a;

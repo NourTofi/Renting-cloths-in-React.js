@@ -1,0 +1,133 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 174px;
+
+    background: #ebeaff;
+}
+
+.bord {
+    position: absolute;
+    width: 774px;
+    height: 147px;
+    left: 410px;
+    top: 13px;
+
+    background: #d8d7ec;
+    box-shadow: 0px 35px 127px 17px rgba(0, 0, 0, 25%);
+    border-radius: 51px;
+}
+
+.copyright {
+    position: absolute;
+    left: 7.49%;
+    right: 5.17%;
+    top: 83.67%;
+    bottom: 0%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dis {
+    position: absolute;
+    left: 26.61%;
+    right: 25.84%;
+    top: 34.69%;
+    bottom: 48.98%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.footerLogo {
+    position: absolute;
+    left: 44.7%;
+    right: 44.57%;
+    top: 6.8%;
+    bottom: 76.87%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.facebook {
+    position: absolute;
+    left: 9.04%;
+    right: 89.23%;
+    top: 61.22%;
+    bottom: 21.77%;
+}
+
+.fa.fa-facebook {
+    color: #000000;
+}
+
+.fa.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.instagram {
+    position: absolute;
+    left: 34.5%;
+    right: 62.68%;
+    top: 61.22%;
+    bottom: 23.89%;
+}
+
+.fa.fa-instagram {
+    color: #000000;
+}
+
+.fa.fa-instagram:hover {
+    color: #C13584
+}
+
+.twitter {
+    position: absolute;
+    left: 60.98%;
+    right: 35.79%;
+    top: 61.9%;
+    bottom: 24.28%;
+}
+
+.fa.fa-twitter {
+    color: #000000;
+}
+
+.fa.fa-twitter:hover {
+    color: #00ACEE
+}
+
+.snapchat {
+    position: absolute;
+    left: 87.98%;
+    right: 8.79%;
+    top: 61.9%;
+    bottom: 22.11%;
+}
+
+.fa.fa-snapchat {
+    color: #000000;
+}
+
+.fa.fa-snapchat:hover {
+    color: #FEFC46;
+}
